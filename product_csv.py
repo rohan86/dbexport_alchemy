@@ -1,6 +1,6 @@
 from dbexport.config import Session
 from dbexport.models import Product, Review
-
+import datetime
 from sqlalchemy.sql import func
 
 import csv
